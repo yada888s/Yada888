@@ -195,4 +195,105 @@
         }
 
         .contact-info {
- 
+            text-align: center;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+            }
+            .nav-links {
+                margin-top: 1rem;
+            }
+            .nav-links li {
+                margin: 0 1rem;
+            }
+            .hero h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+    <nav class="navbar">
+        <h1>Phimchanok</h1>
+        <ul class="nav-links">
+            <li><a href="#about">Who Am I?</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Let's Connect</a></li>
+            <li><a href="#sop">Sop</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <section class="hero">
+        <img src="cute.jpg" class="hero-img">
+        <h2>พิมชนก เจริญสุขชุติกานต์</h2>
+        <p> เลขที่7 ม.6/3 สายการโรงแรม <i class="fa-solid fa-gear"></i> </p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <div class="container">
+        <section id="about">
+            <h3> Who Am I? </h3>
+            <div class="about-content">
+                <p> ดอกไม้แต่ละชนิดมีฤดูกาลเบ่งบานเป็นของตัวเอง </p>
+            </div>
+        </section>
+        <section id="sop">
+            <h3>Sop</h3>
+            <div class="sop-content">
+                <p> ข้าพเจ้า นางสาวพิมชนก เจริญสุขชุติกานต์ กำลังศึกษาอยู่ในระดับชั้นมัธยมศึกษาปีที่ 6 จากโรงเรียนเซนต์โยเซฟทิพวัล มีความประสงค์ที่จะเข้าศึกษาต่อในระดับอุดมศึกษา ณ มหาวิทยาลัยศรีนครินทรวิโรฒ คณะมนุษยศาสตร์ สาขาวิชาภาษาอังกฤษ เนื่องจากมีความสนใจและความมุ่งมั่นในด้านภาษาอังกฤษมาอย่างต่อเนื่องตลอดระยะเวลาที่ศึกษา ข้าพเจ้าให้ความสำคัญกับการพัฒนาทักษะภาษาอังกฤษทั้งในด้านการฟัง พูด อ่าน และเขียน อีกทั้งยังสนใจในการสื่อสารกับผู้อื่นจากหลากหลายวัฒนธรรม ภาษาอังกฤษไม่เพียงเป็นวิชาที่ข้าพเจ้าชื่นชอบ แต่ยังเป็นเครื่องมือสำคัญที่ช่วยเปิดโอกาสในการเรียนรู้โลกกว้าง และสร้างความเข้าใจระหว่างผู้คนนอกจากนี้ ข้าพเจ้ายังมีความสนใจในด้านการโรงแรมและงานบริการ ซึ่งเป็นสายงานที่ต้องใช้ทักษะภาษาอังกฤษเป็นอย่างมาก ข้าพเจ้ามองว่าการได้ศึกษาต่อในสาขาวิชาภาษาอังกฤษจะช่วยเสริมสร้างศักยภาพในการสื่อสาร และสามารถนำไปประยุกต์ใช้ในสายอาชีพที่เกี่ยวข้องกับการบริการ การท่องเที่ยว และการทำงานในระดับนานาชาติได้อย่างมีประสิทธิภาพเหตุผลที่ข้าพเจ้าเลือกมหาวิทยาลัยศรีนครินทรวิโรฒ เนื่องจากเป็นสถาบันที่มีชื่อเสียงด้านการผลิตบัณฑิตที่มีคุณภาพ มีหลักสูตรที่เน้นทั้งความรู้ทางวิชาการและการนำไปใช้จริง อีกทั้งยังส่งเสริมให้นิสิตมีทักษะการคิดวิเคราะห์และการสื่อสารอย่างเป็นระบบ ซึ่งสอดคล้องกับเป้าหมายของข้าพเจ้าในอนาคต ข้าพเจ้ามุ่งหวังที่จะนำความรู้และทักษะที่ได้รับไปพัฒนาตนเองให้เป็นบุคลากรที่มีความสามารถด้านภาษา สามารถทำงานในสายงานที่เกี่ยวข้องกับการสื่อสารระดับสากล และเป็นส่วนหนึ่งในการสร้างภาพลักษณ์ที่ดีให้กับองค์กรและประเทศ
+
+ข้าพเจ้าหวังเป็นอย่างยิ่งว่าจะได้รับโอกาสในการเข้าศึกษาในคณะมนุษยศาสตร์ สาขาวิชาภาษาอังกฤษ มหาวิทยาลัยศรีนครินทรวิโรฒ เพื่อพัฒนาศักยภาพของตนเองและก้าวไปสู่เป้าหมายในอนาคต
+
+ขอขอบพระคุณเป็นอย่างสูงสำหรับการพิจารณาใบสมัครของข้าพเจ้า </p>
+            </div>
+        </section>
+        <section id="projects">
+            <h3> Projects </h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h4>Project One Title</h4>
+                        <p> coming soon </p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h4>Project Two Title</h4>
+                        <p> coming soon</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h4>Project Three Title</h4>
+                        <p> coming soon </p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h3> Let's Connect </h3>
+            <div class="contact-info">
+                <p>Contact information coming shortly.<p>
